@@ -16,7 +16,7 @@ var todos = [{
 }, {
 	id: 3,
 	description: 'Walk the dog',
-	complete: true
+	completed: true
 }];
 
 app.get('/', function (req,res) {
